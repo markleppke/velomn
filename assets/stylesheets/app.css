@@ -5063,7 +5063,7 @@ kbd {
   background-color: rgba(51, 51, 51, 0);
   color: #fcf9f5;
   width: 100%;
-  padding: 2.5rem 0.875rem;
+  padding: 1.875rem 0.875rem;
   font-size: 1.25rem;
 }
 /* line 174, ../../bower_components/foundation/scss/foundation/components/_orbit.scss */
@@ -9035,8 +9035,11 @@ th.hide-for-touch {
 /* line 1, ../scss/scss/_hero.scss */
 .hero {
   text-align: center;
-  position: relative h1, h2, h3, h4, h5, h6, p;
-  position-color: #fcf9f5;
+  position: relative;
+}
+/* line 4, ../scss/scss/_hero.scss */
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero p {
+  color: #fcf9f5;
 }
 /* line 5, ../scss/scss/_hero.scss */
 .hero h2 {
@@ -9044,16 +9047,17 @@ th.hide-for-touch {
   position: absolute;
   z-index: 1;
   color: white;
-  left: 25%;
+  text-align: center;
   padding-top: 20px;
+  width: 100%;
 }
-/* line 13, ../scss/scss/_hero.scss */
+/* line 14, ../scss/scss/_hero.scss */
 .hero img {
   width: 100%;
   height: 100%;
 }
 
-/* line 19, ../scss/scss/_hero.scss */
+/* line 20, ../scss/scss/_hero.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption {
   text-align: center;
 }
